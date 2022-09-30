@@ -2,7 +2,7 @@
 <html lang="en">
     
     <head>
-        <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon" />
+        <link rel="shortcut icon" href="https://static-public.klickpages.com.br/uploads/media/file/3100356/logo---branco.png" type="image/x-icon" />
         <meta charset="utf-8">
         <meta name="robots" content="noindex, nofollow">
         <title>Login</title>
@@ -10,9 +10,6 @@
         <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
         <meta name="author" content="Junior Rodrigues">
         <style type="text/css">
-            
-            /* Made with love by Mutiullah Samim*/
-            
             @import url('https://fonts.googleapis.com/css?family=Numans');
             
             
@@ -130,12 +127,12 @@
         
        
         <div class="tp text-white text-center">
-        <a class="navbar-brand" href="http://localhost/log/">
+        <a class="navbar-brand" href="<?=base_url()?>">
             <img src="./images/logo.png" class="img-fluid" style="max-height: 80px">
         </a>
             <div class="vv">
-            <a class="input4 btn btn-primary" type="submit" href="http://localhost/log/">INTRODUÇÃO</a>
-            <a class="input4 btn btn-primary" type="submit" href="http://localhost/log/contato.php/">CONTATO</a>
+            <a class="input4 btn btn-primary" type="submit" href="<?=base_url()?>/index.php">INTRODUÇÃO</a>
+            <a class="input4 btn btn-primary" type="submit" href="<?=base_url()?>/contato.php/">CONTATO</a>
            
         </div>
         </div>
