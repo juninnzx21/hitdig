@@ -131,12 +131,11 @@
        
         <div class="tp text-white text-center">
         <a class="navbar-brand" href="http://localhost/log/">
-            <img src="./images/logo.png" class="img-fluid" style="max-height: 80px">
+        <img src="https://static-public.klickpages.com.br/uploads/media/file/3100356/logo---branco.png" class="img-fluid" style="max-height: 80px">
         </a>
             <div class="vv">
             <a class="input4 btn btn-primary" type="submit" href="http://localhost/log/">INTRODUÇÃO</a>
-            <a class="input4 btn btn-primary" type="submit" href="http://localhost/log/contato.php/">CONTATO</a>
-           
+            <button class="input5 btn btn-primary" type="submit" hteaf="./contato.php">CONTATO</button>
         </div>
         </div>
         
@@ -149,25 +148,38 @@
        
        <section>
             <div class="card">
-               <div>                        
-                    <h3>
-                        Why do we use it? 
-                    </h3>
-                    <a>
-                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                    
+                    
+                    <div class="card-body">
+                        
+                        <form class="cnts">      
+                            <div class="card-body">
+                                <div class="Nnv form-row  d-flex justify-content-center py-3 ">
+                                    <div class=" col-md-5">
+                                        <input type="text" class="input3 row form-control is-valid" id="validationServer01" placeholder="Nome"value="" required>
+                                    </div>
+                                    <div class=" col-md-5">
+                                        <input type="text" class="input2 row form-control is-valid" id="validationServer02" placeholder="Email*" value="" required>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="row align-items-end menssagem">
+                                        <textarea name="Menssagem"  class="input1 form-control is-valid" id="validationServer02" placeholder="Menssagen*" value="" required></textarea> 
+                                    <div class="form-row">
+                                </div>
+                                    
 
-                    </a>
+                                <div class=" container d-flex justify-content-center py-3">
+                                    <button class="input6 btn btn-primary" type="submit">ENVIAR</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    
                 </div>
-                <div>
-                    <h3>
-                        Where can I get some?
-                    </h3>
-                    <a>
-                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. 
-                    /a>
-                </div> 
             </div>
-        </section> 
+        </div>
+</section> 
 </body>
 </header>
 <footer >
