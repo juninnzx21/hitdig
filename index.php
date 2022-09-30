@@ -131,8 +131,8 @@
             <img src="./images/logo.png" class="img-fluid" style="max-height: 80px">
         </a>
             <div class="vv">
-            <a class="input4 btn btn-primary" type="submit" href="<?=base_url()?>/index.php">INTRODUÇÃO</a>
-            <a class="input4 btn btn-primary" type="submit" href="<?=base_url()?>/contato.php/">CONTATO</a>
+            <a class="input4 btn btn-primary" type="submit" href="<?=base_url()?>index">INTRODUÇÃO</a>
+            <a class="input4 btn btn-primary" type="submit" href="<?=base_url()?>contato">CONTATO</a>
            
         </div>
         </div>
