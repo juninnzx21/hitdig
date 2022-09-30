@@ -127,7 +127,7 @@
         
        
         <div class="tp text-white text-center">
-        <a class="navbar-brand" href="<?=base_url()?>">
+        <a class="navbar-brand" href="<?=base_url()?>/index.php">
             <img src="./images/logo.png" class="img-fluid" style="max-height: 80px">
         </a>
             <div class="vv">
