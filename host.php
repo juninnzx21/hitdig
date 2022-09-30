@@ -5,7 +5,7 @@ if ($_SERVER['SERVER_NAME'] === $_SERVER['HTTP_HOST'] && $_SERVER['HTTP_HOST'] =
     # localhost
     function base_url()
     {
-        return 'https://hitidig.herokuapp.com/';
+        return 'http://localhost/log/';
     }
 }else{
     # servidor

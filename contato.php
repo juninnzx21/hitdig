@@ -2,10 +2,10 @@
 <html lang="en">
     
     <head>
-        <link rel="shortcut icon" href="https://static-public.klickpages.com.br/uploads/media/file/3100356/logo---branco.png" type="image/x-icon" />
+        <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon" />
         <meta charset="utf-8">
         <meta name="robots" content="noindex, nofollow">
-        <title>hit teste</title>
+        <title>Login</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
         <meta name="author" content="Junior Rodrigues">
@@ -130,12 +130,12 @@
         
        
         <div class="tp text-white text-center">
-        <a class="navbar-brand" href="<?=base_url()?>/index.php">
+        <a class="navbar-brand" href="http://localhost/log/">
         <img src="https://static-public.klickpages.com.br/uploads/media/file/3100356/logo---branco.png" class="img-fluid" style="max-height: 80px">
         </a>
             <div class="vv">
-            <a class="input4 btn btn-primary" type="submit" href="<?=base_url()?>/index.php">INTRODUÇÃO</a>
-            <button class="input5 btn btn-primary" type="submit" hteaf="<?=base_url()?>/contato.php">CONTATO</button>
+            <a class="input4 btn btn-primary" type="submit" href="http://localhost/log/">INTRODUÇÃO</a>
+            <button class="input5 btn btn-primary" type="submit" hteaf="./contato.php">CONTATO</button>
         </div>
         </div>
         
