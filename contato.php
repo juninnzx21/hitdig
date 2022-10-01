@@ -76,8 +76,8 @@ include './host.php'
     }
    
     .input4 {
-        margin-left: 10px;
-        margin-right: 30px;
+        margin-left: 20px;
+        margin-right: 60px;
         background-color: #EA906B;
         width: 200px;
         border-radius: 10px;
@@ -101,7 +101,7 @@ include './host.php'
    }
 
    .Nnv {
-    text-align: center;
+        text-align: center;
         width: 127%;
         border-radius: 10px;
         border-right: 100px;
