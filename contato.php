@@ -42,7 +42,7 @@ include './host.php'
         height: 500px;
         margin-top: 30px;
         margin-bottom: auto;
-        width: 47%;
+        width: 100%;
         background-color: #EA906B !important;
     }
 
@@ -58,7 +58,7 @@ include './host.php'
     }
     .input1 {
         border-radius: 8px;
-        max-height: 300px;
+        height: 300px;
         display: block;
         width: 100% ;
         
