@@ -154,18 +154,19 @@ include './host.php'
                         
                         <form class="cnts">      
                             <div class="card-body">
-                                <div class="Nnv form-row  d-flex justify-content-center py-3 ">
-                                    <div class=" col-md-5">
-                                        <input type="text" class="input3 row form-control is-valid" id="validationServer01" placeholder="Nome"value="" required>
-                                    </div>
+                                <div>
+                                    <div class="Nnv form-row  d-flex justify-content-center py-3 ">
+                                        <div class=" col-md-5">
+                                            <input type="text" class="input3 row form-control is-valid" id="validationServer01" placeholder="Nome"value="" required>
+                                        </div>
                                     <div class=" col-md-5">
                                         <input type="text" class="input2 row form-control is-valid" id="validationServer02" placeholder="Email*" value="" required>
                                     </div>
-                                </div>
-                                <div>
+                                    </div>
+                                    <div>
                                     <div class="row align-items-end menssagem">
                                         <textarea name="Menssagem"  class="input1 form-control is-valid" id="validationServer02" placeholder="Menssagen*" value="" required></textarea> 
-                                    <div class="form-row">
+                                    </div class="form-row">
                                 </div>
                                     
 
