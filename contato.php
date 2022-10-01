@@ -13,9 +13,6 @@ include './host.php'
         <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
         <meta name="author" content="Junior Rodrigues">
         <style type="text/css">
-            
-            /* Made with love by Mutiullah Samim*/
-            
             @import url('https://fonts.googleapis.com/css?family=Numans');
             
             
@@ -45,7 +42,7 @@ include './host.php'
         height: 500px;
         margin-top: 30px;
         margin-bottom: auto;
-        width: 40%;
+        width: 48%;
         background-color: #EA906B !important;
     }
 
