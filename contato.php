@@ -147,13 +147,14 @@ include './host.php'
         </div>
        
        <section>
-            <div class="card">
+            <div>
                     
                     
                     <div class="card-body">
                         
                         <form class="cnts">      
                             <div class="card-body">
+                            <div class="card">    
                                 <div class="Nnv form-row  d-flex justify-content-center py-3 ">
                                     <div class=" col-md-5">
                                         <input type="text" class="input3 row form-control is-valid" id="validationServer01" placeholder="Nome"value="" required>
@@ -167,6 +168,7 @@ include './host.php'
                                         <textarea name="Menssagem"  class="input1 form-control is-valid" id="validationServer02" placeholder="Menssagen*" value="" required></textarea> 
                                     <div class="form-row">
                                 </div>
+                            </div>
                                     
 
                                 <div class=" container d-flex justify-content-center py-3">
