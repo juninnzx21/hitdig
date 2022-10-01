@@ -119,11 +119,7 @@
    }
     
     </style>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-    <script type="text/javascript">
-    </script>
-    
+   
 </head>
    
 <header>
@@ -133,7 +129,7 @@
        
         <div class="tp text-white text-center">
         <a class="navbar-brand" href="<?=base_url()?>">
-            <img src="./images/logo.png" class="img-fluid" style="max-height: 80px">
+            <img src="https://static-public.klickpages.com.br/uploads/media/file/3100356/logo---branco.png" class="img-fluid" style="max-height: 80px">
         </a>
             <div class="vv">
             <a class="input4 btn btn-primary" type="submit" href="<?=base_url()?> ">INTRODUÇÃO</a>
@@ -170,9 +166,14 @@
                 </div> 
             </div>
         </section> 
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    
+    
 </body>
 </header>
 <footer >
 <p class="p-2 ww text-white text-center">© <?= date('Y')?>. Todos os direitos reservados. Junior Rodrigues DEVJUNIOR.</p>
 </footer>
+
 </html>
