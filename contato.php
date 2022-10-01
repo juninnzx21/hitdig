@@ -58,7 +58,7 @@ include './host.php'
     }
     .input1 {
         border-radius: 8px;
-        height: 300px;
+        max-height: 300px;
         display: block;
         width: 100% ;
         
@@ -84,12 +84,12 @@ include './host.php'
     }
     .input5 {
         background-color: #EA906B;
-        width: 200px;
+        max-width: 200px;
         border-radius: 10px;
     }
     .input6 {
         background-color: #383836;
-        width: 200px;
+        max-width: 200px;
         border-radius: 10px;
     }
     
@@ -101,7 +101,7 @@ include './host.php'
    }
 
    .Nnv {
-    text-align: center;
+        text-align: center;
         width: 127%;
         border-radius: 10px;
         border-right: 100px;
