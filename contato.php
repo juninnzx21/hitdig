@@ -42,7 +42,7 @@ include './host.php'
         height: 500px;
         margin-top: 30px;
         margin-bottom: auto;
-        width: 60%;
+        width: 50%;
         background-color: #EA906B !important;
     }
 
