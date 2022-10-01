@@ -84,12 +84,12 @@ include './host.php'
     }
     .input5 {
         background-color: #EA906B;
-        max-width: 200px;
+        width: 200px;
         border-radius: 10px;
     }
     .input6 {
         background-color: #383836;
-        max-width: 200px;
+        width: 200px;
         border-radius: 10px;
     }
     
