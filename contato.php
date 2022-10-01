@@ -42,7 +42,7 @@ include './host.php'
         height: 500px;
         margin-top: 30px;
         margin-bottom: auto;
-        width: 38%;
+        width: 47%;
         background-color: #EA906B !important;
     }
 
@@ -76,8 +76,8 @@ include './host.php'
     }
    
     .input4 {
-        margin-left: 20px;
-        margin-right: 60px;
+        margin-left: 10px;
+        margin-right: 10%;
         background-color: #EA906B;
         width: 200px;
         border-radius: 10px;
@@ -101,7 +101,7 @@ include './host.php'
    }
 
    .Nnv {
-        text-align: center;
+    text-align: center;
         width: 127%;
         border-radius: 10px;
         border-right: 100px;
