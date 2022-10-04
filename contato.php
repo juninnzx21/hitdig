@@ -136,7 +136,7 @@ include './host.php'
                 
         
         <div class="ww text-white text-center">
-          <h1>Contato</h1>
+          <h2>Contato</h2>
         </div>
        
        <section>

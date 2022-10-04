@@ -108,7 +108,7 @@ include './host.php'
                 
         
         <div class="ww text-white text-center">
-          <h1>Introdção</h1>
+          <h2>Introdução</h2>
         </div>
        
        <section>
