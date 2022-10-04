@@ -214,7 +214,7 @@ include './host.php'
                             </div>  
                         </div>
                         <div class="row align-items-end menssagem">
-                            <textarea name="Menssagem"  class="input1 form-control is-valid" id="validationServer02" placeholder="Menssagen*" value="" required></textarea> 
+                            <textarea name="Menssagem"  class="input1 form-control is-valid" id="validationServer02" placeholder="Menssagen*" value="" required=""></textarea> 
                         </div class="form-row">
                         <div class=" container justify-content-center py-3">
                             <button class="input6">ENVIAR</button>
