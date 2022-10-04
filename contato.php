@@ -74,14 +74,14 @@ include './host.php'
         font-size: 100%;
         margin:0px 5px 0px 5px;
         background-color: #EA906B;
-        width: 20%;
+        width: 16%;
         border-radius: 10px;
     }
      
     
     .input6 {
         background-color: #383836;
-        width: 30%;
+        width: 25%;
         border-radius: 10px;
        
     }
