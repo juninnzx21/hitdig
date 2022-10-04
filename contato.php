@@ -66,7 +66,7 @@ include './host.php'
    
     .input3 {
         margin: 3% 0px 3% 0px;
-        width: 100%;
+        width: 90%;
         border-radius: 8px;
     }
    
@@ -81,7 +81,7 @@ include './host.php'
     
     .input6 {
         background-color: #383836;
-        width: 50%;
+        width: 38%;
         border-radius: 10px;
        
     }
