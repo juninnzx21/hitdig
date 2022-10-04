@@ -42,7 +42,7 @@ include './host.php'
         max-height: 300%;
         margin-top: 30px;
         margin-bottom: auto;
-        width: 38%;
+        width: 50%;
         max-width:100%;
         background-color: #EA906B !important;
     }
@@ -74,7 +74,7 @@ include './host.php'
         font-size: 100%;
         margin:0px 5px 0px 5px;
         background-color: #EA906B;
-        width: 18%;
+        width: 14%;
         border-radius: 10px;
     }
      
@@ -157,7 +157,7 @@ include './host.php'
                             <textarea name="Menssagem"  class="input1 form-control is-valid" id="validationServer02" placeholder="Menssagen*" value="" required></textarea> 
                         </div class="form-row">
                         <div class=" container justify-content-center py-3">
-                            <button class="input6">Contato</button>
+                            <button class="input6">ENVIAR</button>
                         <div>                           
                         </div>
                     </div>

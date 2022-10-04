@@ -45,7 +45,7 @@ include './host.php'
         max-height: 300%;
         margin-top: 30px;
         margin-bottom: auto;
-        width: 38%;
+        width: 50%;
         max-width:100%;
         background-color: #EA906B !important;
     }
@@ -55,7 +55,7 @@ include './host.php'
         margin-left: 10px;
         margin-right: 30px;
         background-color: #EA906B;
-        width: 200px;
+        width: 14%;
         border-radius: 10px;
     }
     
@@ -108,7 +108,7 @@ include './host.php'
                 
         
         <div class="ww text-white text-center">
-          <h1>Contato</h1>
+          <h1>Introdção</h1>
         </div>
        
        <section>
