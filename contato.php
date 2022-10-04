@@ -65,8 +65,8 @@ include './host.php'
 
    
     .input3 {
-        margin: 0px 2%  0px 4% ;
-        width: 98%;
+        margin: 0px 2%  0px 2% ;
+        width: 95%;
         border-radius: 8px;
     }
    
