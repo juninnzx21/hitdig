@@ -81,7 +81,7 @@ include './host.php'
     
     .input6 {
         background-color: #383836;
-        width: 25%;
+        width: 20%;
         border-radius: 10px;
        
     }
