@@ -28,7 +28,7 @@ include './host.php'
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 80vh;
+        height: 90vh;
     }
     .container {
         height: 100%;
@@ -39,10 +39,11 @@ include './host.php'
         text-align: center;
         border-radius: 30px;
         position: center;
-        height: 500px;
+        max-height: 300%;
         margin-top: 30px;
         margin-bottom: auto;
-        width: 52%;
+        width: 38%;
+        max-width:100%;
         background-color: #EA906B !important;
     }
 
@@ -52,52 +53,42 @@ include './host.php'
         border-radius: 30px;
         display: flex;
     }
-    .menssagem { 
-        display: block;
-        
-    }
+   
     .input1 {
+        margin: 0px 3% 2% 3%;
         border-radius: 8px;
         height: 300px;
-        display: block;
         width: 100% ;
-        
+    
     }
     
-    .input2 {
-        border-radius: 8px;
-        display: block;
-        width: 100%
-    }
+
    
     .input3 {
+        margin: 3% 0px 3% 0px;
         width: 100%;
         border-radius: 8px;
     }
    
     .input4 {
-        margin-left: 10px;
-        margin-right: 10%;
+        font-size: 100%;
+        margin:0px 5px 0px 5px;
         background-color: #EA906B;
-        width: 200px;
+        width: 18%;
         border-radius: 10px;
     }
-    .input5 {
-        background-color: #EA906B;
-        width: 200px;
-        border-radius: 10px;
-    }
+     
+    
     .input6 {
         background-color: #383836;
-        width: 200px;
+        width: 50%;
         border-radius: 10px;
+       
     }
     
     
    .vv{
-    margin-right: 30px;
     margin-top: 40px;
-    background-color:;
    }
 
    .Nnv {
@@ -134,8 +125,10 @@ include './host.php'
         <img src="https://static-public.klickpages.com.br/uploads/media/file/3100356/logo---branco.png" class="img-fluid" style="max-height: 80px">
         </a>
             <div class="vv">
+               
             <a class="input4 btn btn-primary" type="submit" href="<?=base_url()?>">INTRODUÇÃO</a>
-            <button class="input5 btn btn-primary" type="submit" href="<?=base_url()?>contato.php">CONTATO</button>
+            <a class="input4 btn btn-primary" type="submit" href="<?=base_url()?>contato.php">CONTATO</a>
+                
         </div>
         </div>
         
@@ -148,38 +141,28 @@ include './host.php'
        
        <section>
             <div class="card">
-                    
-                    
+                <form >      
                     <div class="card-body">
-                        
-                        <form class="cnts">      
-                            <div class="card-body">
-                                <div>
-                                    <div class="Nnv form-row  d-flex justify-content-center py-3 ">
-                                        <div class=" col-md-5">
-                                            <input type="text" class="input3 row form-control is-valid" id="validationServer01" placeholder="Nome"value="" required>
-                                        </div>
-                                    <div class=" col-md-5">
-                                        <input type="text" class="input2 row form-control is-valid" id="validationServer02" placeholder="Email*" value="" required>
-                                    </div>
-                                    </div>
-                                    <div>
-                                    <div class="row align-items-end menssagem">
-                                        <textarea name="Menssagem"  class="input1 form-control is-valid" id="validationServer02" placeholder="Menssagen*" value="" required></textarea> 
-                                    </div class="form-row">
+                        <div>
+                            <div class="form-row  d-flex justify-content-center py-3 ">
+                                <div class=" col-md-6">
+                                    <input  type="text" class="input3 row form-control is-valid" id="validationServer01" placeholder="Nome"value="" required="">   
                                 </div>
-                                    
-
-                                <div class=" container d-flex justify-content-center py-3">
-                                    <button class="input6 btn btn-primary" type="submit">ENVIAR</button>
+                                <div class=" col-md-6">
+                                    <input  type="text" class="input3 row form-control is-valid" id="validationServer01" placeholder="E-mail"value="" required="">   
                                 </div>
-                            </div>
-                        </form>
+                            </div>  
+                        </div>
+                        <div class="row align-items-end menssagem">
+                            <textarea name="Menssagem"  class="input1 form-control is-valid" id="validationServer02" placeholder="Menssagen*" value="" required></textarea> 
+                        </div class="form-row">
+                        <div class=" container justify-content-center py-3">
+                            <button class="input6">Contato</button>
+                        <div>                           
+                        </div>
                     </div>
-                    
-                </div>
+                </form>
             </div>
-        </div>
 </section> 
 </body>
 </header>

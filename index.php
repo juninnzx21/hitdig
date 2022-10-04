@@ -37,60 +37,24 @@ include './host.php'
        
     }
 
+    
     .card {
         text-align: center;
         border-radius: 30px;
         position: center;
-        height: 500px;
+        max-height: 300%;
         margin-top: 30px;
         margin-bottom: auto;
-        width: 40%;
+        width: 38%;
+        max-width:100%;
         background-color: #EA906B !important;
     }
 
-
-    
-    .cnts { 
-        border-radius: 30px;
-        display: flex;
-    }
-    .menssagem { 
-        display: block;
-        
-    }
-    .input1 {
-        border-radius: 8px;
-        height: 300px;
-        display: block;
-        width: 100% ;
-        
-    }
-    
-    .input2 {
-        border-radius: 8px;
-        display: block;
-        width: 100%
-    }
-   
-    .input3 {
-        width: 100%;
-        border-radius: 8px;
-    }
    
     .input4 {
         margin-left: 10px;
         margin-right: 30px;
         background-color: #EA906B;
-        width: 200px;
-        border-radius: 10px;
-    }
-    .input5 {
-        background-color: #EA906B;
-        width: 200px;
-        border-radius: 10px;
-    }
-    .input6 {
-        background-color: #383836;
         width: 200px;
         border-radius: 10px;
     }
@@ -128,14 +92,15 @@ include './host.php'
     <body >  
         
        
-        <div class="tp text-white text-center">
+    <div class="tp text-white text-center">
         <a class="navbar-brand" href="<?=base_url()?>">
-            <img src="https://static-public.klickpages.com.br/uploads/media/file/3100356/logo---branco.png" class="img-fluid" style="max-height: 80px">
+        <img src="https://static-public.klickpages.com.br/uploads/media/file/3100356/logo---branco.png" class="img-fluid" style="max-height: 80px">
         </a>
             <div class="vv">
-            <a class="input4 btn btn-primary" type="submit" href="<?=base_url()?> ">INTRODUÇÃO</a>
+            <a class="input4 btn btn-primary" type="submit" href="<?=base_url()?>">INTRODUÇÃO</a>
             <a class="input4 btn btn-primary" type="submit" href="<?=base_url()?>contato.php">CONTATO</a>
-           
+                
+                
         </div>
         </div>
         
@@ -163,18 +128,18 @@ include './host.php'
                     </h3>
                     <a>
                         There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. 
-                    /a>
+                   
                 </div> 
             </div>
         </section> 
+        
         <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
     
-    
+   
 </body>
 </header>
 <footer >
-<p class="p-2 ww text-white text-center">© <?= date('Y')?>. Todos os direitos reservados. Junior Rodrigues DEVJUNIOR.</p>
+    <p class="p-2 ww text-white text-center">© <?= date('Y')?>. Todos os direitos reservados. Junior Rodrigues DEVJUNIOR.</p>
 </footer>
-
 </html>
