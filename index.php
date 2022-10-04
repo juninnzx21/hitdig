@@ -93,7 +93,21 @@ include './host.php'
    .tp{
     margin-top: 70px;
    }
+   @media screen and (max-width:776px){
+    .card {
+        text-align: center;
+        border-radius: 30px;
+        position: center;
+        height:180%;
+        margin-top: 30px;
+        margin-bottom: auto;
+        width: 680px;
+        max-width:100%;
+        background-color: #EA906B !important;
+    }
     
+    
+    }
     </style>
    
 </head>
