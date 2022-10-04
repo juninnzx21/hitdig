@@ -37,28 +37,39 @@ include './host.php'
        
     }
 
+    .card1 {
+        background-color: #2E2E2E;
+        width: 123px;
+        height:3px;
+        border-radius: 30px;
+    }
+    .barr2 {
+        margin:-1px 0px -1px 50px;
+        text:center;
+        background-color: #E67952;
+        width: 20px;
+        height:6px;
+    }
     
+
     .card {
-        text-align: center;
         border-radius: 30px;
         position: center;
-        max-height: 300%;
+        height:435px;
         margin-top: 30px;
         margin-bottom: auto;
-        width: 50%;
+        width: 780px;
         max-width:100%;
         background-color: #EA906B !important;
     }
 
    
     .input4 {
-        margin-left: 10px;
-        margin-right: 30px;
         background-color: #EA906B;
-        width: 15%;
+        width: 200px;
+        height:40px;
         border-radius: 10px;
     }
-    
     
    .vv{
     
@@ -98,9 +109,7 @@ include './host.php'
         </a>
             <div class="vv">
             <a class="input4 btn btn-primary" type="submit" href="<?=base_url()?>">INTRODUÇÃO</a>
-            <a class="input4 btn btn-primary" type="submit" href="<?=base_url()?>contato.php">CONTATO</a>
-                
-                
+            <a class="input4 btn btn-primary" type="submit" href="<?=base_url()?>contato.php">CONTATO</a>      
         </div>
         </div>
         
@@ -108,28 +117,34 @@ include './host.php'
                 
         
         <div class="ww text-white text-center">
-          <h2>Introdução</h2>
+          <h4>INTRODUÇÃO</h4>
         </div>
-       
+       <div class="d-flex justify-content-center ">
+        <div class="card1">
+            <div class="barr2 justify-content-center">
+                
+            </div>
+        </div>
+        </div>
        <section>
-            <div class="card">
-               <div>                        
-                    <h3>
-                        Why do we use it? 
-                    </h3>
-                    <a>
-                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-
-                    </a>
-                </div>
-                <div>
-                    <h3>
-                        Where can I get some?
-                    </h3>
-                    <a>
-                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. 
-                   
-                </div> 
+                <div class="card">
+                <form>      
+                    <div class="card-body">
+                        <div>
+                        <p>  
+                    <div> 
+                        <a>
+                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                        </a>
+                    </div>
+                    <p>
+                    <div>
+                        <a>
+                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures.
+                        </a>
+                        </div>
+                    </div>
+                </form>
             </div>
         </section> 
         

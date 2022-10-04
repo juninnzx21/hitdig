@@ -34,15 +34,28 @@ include './host.php'
         height: 100%;
         width:100%;
     }
-
+    .card1 {
+        background-color: #2E2E2E;
+        width: 123px;
+        height:3px;
+        border-radius: 30px;
+    }
+    .barr2 {
+        margin:-1px 0px -1px 50px;
+        text:center;
+        background-color: #E67952;
+        width: 20px;
+        height:6px;
+    }
+    
     .card {
         text-align: center;
         border-radius: 30px;
         position: center;
-        max-height: 300%;
+        height:404px;
         margin-top: 30px;
         margin-bottom: auto;
-        width: 50%;
+        width: 680px;
         max-width:100%;
         background-color: #EA906B !important;
     }
@@ -55,18 +68,25 @@ include './host.php'
     }
    
     .input1 {
-        margin: 0px 3% 2% 3%;
-        border-radius: 8px;
-        height: 300px;
-        width: 100% ;
-    
+        border-radius: 10px;
+        height: 200px;
+        width: 600px ;
+        margin-left:34px;
+      
     }
-    
+    .input2 {
+        margin-left:19px;
+        height:46px;
+        width: 290px;
+        border-radius: 8px;
+    }
 
    
     .input3 {
-        margin: 0px 2%  0px 2% ;
-        width: 95%;
+        margin-right:10px;
+        margin-left:3px;
+        height:46px;
+        width: 290px;
         border-radius: 8px;
     }
    
@@ -74,16 +94,17 @@ include './host.php'
         font-size: 100%;
         margin:0px 5px 0px 5px;
         background-color: #EA906B;
-        width: 15%;
+        height:40;
+        width:200px;
         border-radius: 10px;
     }
      
     
     .input6 {
         background-color: #383836;
-        width: 20%;
+        width: 160px;
+        height: 40px;
         border-radius: 10px;
-       
     }
     
     
@@ -106,6 +127,38 @@ include './host.php'
    .tp{
     margin-top: 70px;
    }
+   @media screen and (max-width:769px){
+    .input2 {
+        margin-left:19px;
+        margin-right:19px;
+        height:46px;
+        width: 94%;
+        border-radius: 8px;
+    }
+    .input3 {
+        margin-left:19px;
+        margin-right:19px;
+        height:46px;
+        width: 94%;
+        border-radius: 8px;
+    }
+    .input1 {
+        margin-left:33px;
+        margin-right:5%;
+        width: 95%;
+        height: 200px;
+        border-radius: 8px;
+    }
+    
+    .input6 {
+        background-color: #383836;
+        width: 35%;
+        height: 40px;
+        border-radius: 10px;
+    }
+    
+    
+    }
     
     </style>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -136,7 +189,14 @@ include './host.php'
                 
         
         <div class="ww text-white text-center">
-          <h2>Contato</h2>
+          <h4>CONTATO</h4>
+        </div>
+       <div class="d-flex justify-content-center ">
+        <div class="card1">
+            <div class="barr2 justify-content-center">
+                
+            </div>
+        </div>
         </div>
        
        <section>
@@ -146,7 +206,7 @@ include './host.php'
                         <div>
                             <div class="form-row  d-flex justify-content-center py-3 ">
                                 <div class=" col-md-6">
-                                    <input  type="text" class="input3 row form-control is-valid" id="validationServer01" placeholder="Nome"value="" required="">   
+                                    <input  type="text" class="input2 row form-control is-valid" id="validationServer01" placeholder="Nome"value="" required="">   
                                 </div>
                                 <div class=" col-md-6">
                                     <input  type="text" class="input3 row form-control is-valid" id="validationServer01" placeholder="E-mail"value="" required="">   
