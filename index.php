@@ -55,7 +55,7 @@ include './host.php'
         margin-left: 10px;
         margin-right: 30px;
         background-color: #EA906B;
-        width: 20%;
+        width: 15%;
         border-radius: 10px;
     }
     
