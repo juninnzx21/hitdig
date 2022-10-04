@@ -74,7 +74,7 @@ include './host.php'
         font-size: 100%;
         margin:0px 5px 0px 5px;
         background-color: #EA906B;
-        width: 14%;
+        width: 20%;
         border-radius: 10px;
     }
      
