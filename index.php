@@ -1,6 +1,6 @@
 <?php 
 include './host.php'
-;?>
+?>
 
 <!DOCTYPE html>
 <html lang="en">
