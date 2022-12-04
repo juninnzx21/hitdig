@@ -122,8 +122,8 @@ include './host.php'
         <img src="https://static-public.klickpages.com.br/uploads/media/file/3100356/logo---branco.png" class="img-fluid" style="max-height: 80px">
         </a>
             <div class="vv">
-            <a class="input4 btn btn-primary" type="submit" href="<?=base_url()?>">INTRODUÇÃO</a>
-            <a class="input4 btn btn-primary" type="submit" href="<?=base_url()?>contato.php">CONTATO</a>      
+            <a class="input4 btn btn-primary" type="submit" href="https://geraldosdsh.github.io/hitdig/">INTRODUÇÃO</a>
+            <a class="input4 btn btn-primary" type="submit" href="https://geraldosdsh.github.io/hitdig/contato.php">CONTATO</a>      
         </div>
         </div>
         
