@@ -172,13 +172,13 @@
         
        
         <div class="tp text-white text-center">
-        <a class="navbar-brand" href="<?=base_url()?>">
+        <a class="navbar-brand" href="#">
         <img src="https://static-public.klickpages.com.br/uploads/media/file/3100356/logo---branco.png" class="img-fluid" style="max-height: 80px">
         </a>
             <div class="vv">
                
-            <a class="input4 btn btn-primary" type="submit" href="<?=base_url()?>">INTRODUÇÃO</a>
-            <a class="input4 btn btn-primary" type="submit" href="<?=base_url()?>contato.php">CONTATO</a>
+            <a class="input4 btn btn-primary" type="submit" href="index.php">INTRODUÇÃO</a>
+            <a class="input4 btn btn-primary" type="submit" href="index.phpcontato.php">CONTATO</a>
                 
         </div>
         </div>
